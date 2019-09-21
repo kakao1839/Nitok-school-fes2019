@@ -70,45 +70,46 @@ let resumeData = {
             "skillname": "Reactjs"
         }
     ],
+    // Gallery
     "portfolio": [
         {
             "name": "image1",
-            "description": "mobileapp",
+            "description": "this is image",
             "imgurl": "images/portfolio/coffee.jpg"
         },
         {
             "name": "image2",
-            "description": "mobileapp",
+            "description": "this is image",
             "imgurl": "images/portfolio/girl.jpg"
         },
         {
             "name": "image3",
-            "description": "mobileapp",
+            "description": "this is image",
             "imgurl": "images/portfolio/farmerboy.jpg"
         },
         {
             "name": "image4",
-            "description": "mobileapp",
+            "description": "this is image",
             "imgurl": "images/portfolio/origami.jpg"
         },
         {
             "name": "image5",
-            "description": "mobileapp",
+            "description": "this is image",
             "imgurl": "images/portfolio/origami.jpg"
         },
         {
             "name": "image6",
-            "description": "mobileapp",
+            "description": "this is image",
             "imgurl": "images/portfolio/origami.jpg"
         },
         {
             "name": "image7",
-            "description": "mobileapp",
+            "description": "this is image",
             "imgurl": "images/portfolio/origami.jpg"
         },
         {
             "name": "image8",
-            "description": "mobileapp",
+            "description": "this is image",
             "imgurl": "images/portfolio/origami.jpg"
         }
     ],

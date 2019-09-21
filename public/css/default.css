@@ -153,6 +153,19 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    opacity: 10%;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F48223;
+}
+
 /*  2. Typography
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
