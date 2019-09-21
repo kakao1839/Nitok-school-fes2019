@@ -1,5 +1,5 @@
 # This is Nit-ok School Festival WebSite
-##Use
+## Use
 ```bash
 npm install
 ```
