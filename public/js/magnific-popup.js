@@ -238,7 +238,7 @@
         G && (F.after(G.addClass(E)).detach(), G = null)
     };
     a.magnificPopup.registerModule(D, {
-        options: {hiddenClass: "hide", markup: "", tNotFound: "Content not found"},
+        options: {hiddenClass: "hide", markup: "./image", tNotFound: "Content not found"},
         proto: {
             initInline: function () {
                 n.types.push(D), x(b + "." + D, function () {

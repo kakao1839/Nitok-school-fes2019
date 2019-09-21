@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default class ContactUs extends Component {
+export default class Sponsor extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
