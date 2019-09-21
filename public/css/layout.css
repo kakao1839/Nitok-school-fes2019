@@ -1057,3 +1057,50 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+/*---------------------------*/
+
+.slide-container {
+    width: 70%;
+    height: 40%;
+    margin: auto; }
+
+h3 {
+    text-align: center; }
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 10px;
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.each-fade {
+    display: flex;
+}
+
+.each-fade .image-container {
+    width: 40%;
+    overflow: hidden;
+}
+
+.each-fade .image-container img {
+    width: 50%;
+}
+
+.each-fade h6 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+}

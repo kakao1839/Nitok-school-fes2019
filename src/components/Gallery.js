@@ -1,35 +1,35 @@
 import React, {Component} from 'react';
+import { Zoom } from 'react-slideshow-image';
+
+const images = [
+    'images/g.jpg',
+    'images/a.jpg',
+    'images/c.jpg',
+    'images/d.jpg',
+    'images/e.jpg',
+    'images/f.jpg',
+];
+
+const zoomOutProperties = {
+    duration: 4000,
+    transitionDuration: 500,
+    infinite: true,
+    indicators: true,
+    scale: 0.4,
+    arrows: true
+};
 
 export default class Porfolio extends Component {
     render() {
-        let resumeData = this.props.resumeData;
         return (
-            <section id="resume">
-                <div className="row">
-                    <div className="twelve columns collapsed">
-                        <h1>MEMBER</h1>
-                        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                            {
-                                resumeData.portfolio && resumeData.portfolio.map((item) => {
-                                    return (
-                                        <div className="columns portfolio-item">
-                                            <div className="item-wrap">
-                                                <a href="#modal-01">
-                                                    <img src={`${item.imgurl}`} className="item-img"/>
-                                                    <div className="overlay">
-                                                        <div className="portfolio-item-meta">
-                                                            <h5>{item.name}</h5>
-                                                            <p>{item.description}</p>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    )
-                                })
-                            }
-                        </div>
-                    </div>
+            <section id="portfolio">
+                <h1>Gallery</h1>
+                <div className="slide-container">
+                    <Zoom {...zoomOutProperties}>
+                        {
+                            images.map((each, index) => <img key={index} style={{width: "100%", height: "100%"}} src={each} />)
+                        }
+                    </Zoom>
                 </div>
             </section>
         );

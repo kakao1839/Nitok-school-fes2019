@@ -22,7 +22,7 @@ export default class Header extends Component {
 
                     <div className="row banner">
                         <div className="banner-text">
-                            <h1 className="responsive-headline">第 16回 {resumeData.name}</h1>
+                            <h1 className="responsive-headline">{resumeData.name}</h1>
                             <h2 style={{
                                 color: '#fff',
                                 fontFamily: 'sans-serif '

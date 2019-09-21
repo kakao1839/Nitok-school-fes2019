@@ -16,8 +16,8 @@ class App extends Component {
         <About resumeData={resumeData}/>
         <Testimonials resumeData={resumeData}/>
         <Event resumeData={resumeData}/>
-        <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
         <Sponsor resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>

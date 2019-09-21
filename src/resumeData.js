@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl": "https://rbhatia46.github.io/",
-    "name": "沖縄高専祭",
+    "name": "第15回 沖縄高専祭",
     "schoolname": "沖縄工業高等専門学校",
     "role": "1日目: 10/26",
     "linkedinId": "Your LinkedIn Id",
