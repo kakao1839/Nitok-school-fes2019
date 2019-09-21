@@ -2,10 +2,10 @@ let resumeData = {
     "imagebaseurl": "https://rbhatia46.github.io/",
     "name": "沖縄高専祭",
     "schoolname": "沖縄工業高等専門学校",
-    "role": "iiiiiiiiii iiiiiiii iii iiiii iiiiiiii",
+    "role": "1日目: 10/26",
     "linkedinId": "Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "roleDescription": "2日目: 10/27",
     "socialLinks": [
         {
             "name": "linkedin",
@@ -25,7 +25,7 @@ let resumeData = {
     ],
     "aboutme": "第15回目の沖縄工業高等専門学校の学園祭です．",
     "address": "〒905-2171 沖縄県名護市字辺野古905",
-    "website": "https://rbhatia46.github.io",
+    "website": "http://www.okinawa-ct.ac.jp",
     "education": [
         {
             "UniversityName": "The LNM Insitute of Information Technology",
