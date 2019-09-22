@@ -1,99 +1,32 @@
 // Resume
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 export default  class Resume extends Component {
     render() {
-        let resumeData = this.props.resumeData;
         return (
             <section id="event">
 
-                <div className="row education">
-
-                    <div className="three columns header-col">
-                        <h1><span>Education</span></h1>
-                    </div>
-
-                    <div className="nine columns main-col">
-                        {
-                            resumeData.education && resumeData.education.map((item)=>{
-                                return(
-                                    <div className="row item">
-                                        <div className="twelve columns">
-                                            <h3>{item.UniversityName}</h3>
-                                            <p className="info">
-                                                {item.specialization}
-                                                <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                                            <p>
-                                                {item.Achievements}
-                                            </p>
-                                        </div>
+                <div className="row">
+                    <div className="col">
+                        <h2>Event</h2>
+                        <div className="tabs">
+                            <div className="tab">
+                                <input type="checkbox" id="chck1" />
+                                    <label className="tab-label" htmlFor="chck1">クラス企画</label>
+                                    <div className="tab-content">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
                                     </div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-                <div className="row work">
-                    <div className="three columns header-col">
-                        <h1><span>Work</span></h1>
-                    </div>
-
-                    <div className="nine columns main-col">
-                        {
-                            resumeData.work && resumeData.work.map((item) => {
-                                return(
-                                    <div className="row item">
-                                        <div className="twelve columns">
-                                            <h3>{item.CompanyName}</h3>
-                                            <p className="info">
-                                                {item.specialization}
-                                                <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                                            <p>
-                                                {item.Achievements}
-                                            </p>
-                                        </div>
-
+                            </div>
+                            <div className="tab">
+                                <input type="checkbox" id="chck2"/>
+                                    <label className="tab-label" htmlFor="chck2">有志企画</label>
+                                    <div className="tab-content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
                                     </div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-
-                <div className="row skill">
-
-                    <div className="three columns header-col">
-                        <h1><span>Skills</span></h1>
-                    </div>
-
-                    <div className="nine columns main-col">
-
-                        <p>
-                            {resumeData.skillsDescription}
-                        </p>
-
-                        <div className="bars">
-
-                            <ul className="skills">
-                                {
-                                    resumeData.skills && resumeData.skills.map((item) => {
-                                        return(
-                                            <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                                            </li>
-                                        )
-                                    })
-                                }
-
-                            </ul>
-
+                            </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </section>
         );
     }

@@ -27,50 +27,6 @@ let resumeData = {
     "time": "1日目: 09:00~17:00 / 2日目: 09:00~17:00",
     "address": "〒905-2171 沖縄県名護市字辺野古905",
     "website": "http://www.okinawa-ct.ac.jp",
-    "education": [
-        {
-            "UniversityName": "The LNM Insitute of Information Technology",
-            "specialization": "Some specialization",
-            "MonthOfPassing": "Aug",
-            "YearOfPassing": "2020",
-            "Achievements": "Some Achievements"
-        },
-        {
-            "UniversityName": "Some University",
-            "specialization": "Some specialization",
-            "MonthOfPassing": "Jan",
-            "YearOfPassing": "2018",
-            "Achievements": "Some Achievements"
-        }
-    ],
-    "work": [
-        {
-            "CompanyName": "Some Company",
-            "specialization": "Some specialization",
-            "MonthOfLeaving": "Jan",
-            "YearOfLeaving": "2018",
-            "Achievements": "Some Achievements"
-        },
-        {
-            "CompanyName": "Some Company",
-            "specialization": "Some specialization",
-            "MonthOfLeaving": "Jan",
-            "YearOfLeaving": "2018",
-            "Achievements": "Some Achievements"
-        }
-    ],
-    "skillsDescription": "Your skills here",
-    "skills": [
-        {
-            "skillname": "HTML5"
-        },
-        {
-            "skillname": "CSS"
-        },
-        {
-            "skillname": "Reactjs"
-        }
-    ],
     // Gallery
     "portfolio": [
         {
@@ -116,19 +72,23 @@ let resumeData = {
     ],
     "testimonials": [
         {
-            "description": "DanceEvent",
-            "name": "ダンス部"
+            "description": "Event",
+            "place":"体育館･視聴覚室･校庭...",
+            "name": "Pick up Event!!!!"
         },
         {
             "description": "劇",
+            "place":"体育館",
             "name": "劇同好会"
         },
         {
             "description": "Hogehoge",
+            "place":"体育館",
             "name": "hoge"
         },
         {
             "description": "poyopoyo",
+            "place":"体育館",
             "name": "potopoto"
         }
     ],

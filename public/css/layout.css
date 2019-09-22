@@ -805,14 +805,14 @@ call-to-action .button {
     padding-bottom: 66px;
 }
 
-#testimonials h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+#testimonials h2 {
+    font: 48px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #fff;
 }
 
-#testimonials h1 span {
+#testimonials h2 span {
     display: none;
 }
 
@@ -820,7 +820,7 @@ call-to-action .button {
     padding-top: 9px;
 }
 
-#testimonials .header-col h1:before {
+#testimonials .header-col h2:before {
     font-family: 'FontAwesome';
     content: "\f10d";
     padding-right: 10px;
@@ -853,7 +853,7 @@ call-to-action .button {
 
 #testimonials blockquote cite {
     display: block;
-    font-size: 12px;
+    font-size: 24px;
     font-style: normal;
     line-height: 18px;
     color: #fff;
@@ -1434,4 +1434,102 @@ details[open] summary {
     width: 60%;
     padding: 5px;
     border: 1px solid #ddd;
+}
+
+
+/*------------------------------------*/
+
+body {
+    color: #2c3e50;
+    background: #ecf0f1;
+    padding: 0 1em 1em;
+}
+
+h1 {
+    margin: 0;
+    line-height: 2;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 0.5em;
+    font-weight: normal;
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.row {
+    display: flex;
+}
+.row .col {
+    flex: 1;
+}
+.row .col:last-child {
+    margin-left: 1em;
+}
+
+/* Accordion styles */
+.tabs {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+.tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #93d0ff;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+}
+.tab-label:hover {
+    background: #6696bf;
+}
+.tab-label::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+}
+.tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #2b4057;
+    background: white;
+    transition: all 0.35s;
+}
+.tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: #6696bf;
+    cursor: pointer;
+}
+.tab-close:hover {
+    background: #95d1ff;
+}
+
+input:checked + .tab-label {
+    background: #95d1ff;
+}
+input:checked + .tab-label::after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
 }
