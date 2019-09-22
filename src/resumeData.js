@@ -74,8 +74,8 @@ let resumeData = {
     // Gallery
     "portfolio": [
         {
-            "name": "image1",
-            "description": "this is image",
+            "name": "リチャード・ストールマン",
+            "description": "GNU's Not Unix",
             "imgurl": "images/member/noimage.jpg"
         },
         {

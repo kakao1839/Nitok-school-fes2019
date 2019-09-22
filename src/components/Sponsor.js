@@ -13,25 +13,34 @@ export default class Sponsor extends Component {
                         </thead>
                         <tbody>
                         <tr>
-                            <td>リンゴ</td>
+                            <td>ほげ</td>
                         </tr>
                         <tr>
-                            <td>みかん</td>
+                            <td>ほげ</td>
                         </tr>
                         <tr>
-                            <td>もも</td>
+                            <td>ほげ</td>
                         </tr>
                         <tr>
-                            <td>スイカ</td>
+                            <td>ほげ</td>
                         </tr>
                         <tr>
-                            <td>オレンジ</td>
+                            <td>ほげ</td>
                         </tr>
                         <tr>
-                            <td>ぶどう</td>
+                            <td>ほげ</td>
                         </tr>
                         <tr>
-                            <td>ぶどう</td>
+                            <td>ほげ</td>
+                        </tr>
+                        <tr>
+                            <td>ほげ</td>
+                        </tr>
+                        <tr>
+                            <td>ほげ</td>
+                        </tr>
+                        <tr>
+                            <td>ほげ</td>
                         </tr>
                         </tbody>
                     </table>
