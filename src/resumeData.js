@@ -75,42 +75,42 @@ let resumeData = {
         {
             "name": "image1",
             "description": "this is image",
-            "imgurl": "images/portfolio/coffee.jpg"
+            "imgurl": "images/member/noimage.jpg"
         },
         {
             "name": "image2",
             "description": "this is image",
-            "imgurl": "images/portfolio/girl.jpg"
+            "imgurl": "images/member/origami.jpg"
         },
         {
             "name": "image3",
             "description": "this is image",
-            "imgurl": "images/portfolio/farmerboy.jpg"
+            "imgurl": "images/member/origami.jpg"
         },
         {
             "name": "image4",
             "description": "this is image",
-            "imgurl": "images/portfolio/origami.jpg"
+            "imgurl": "images/member/origami.jpg"
         },
         {
             "name": "image5",
             "description": "this is image",
-            "imgurl": "images/portfolio/origami.jpg"
+            "imgurl": "images/member/origami.jpg"
         },
         {
             "name": "image6",
             "description": "this is image",
-            "imgurl": "images/portfolio/origami.jpg"
+            "imgurl": "images/member/origami.jpg"
         },
         {
             "name": "image7",
             "description": "this is image",
-            "imgurl": "images/portfolio/origami.jpg"
+            "imgurl": "images/member/origami.jpg"
         },
         {
             "name": "image8",
             "description": "this is image",
-            "imgurl": "images/portfolio/origami.jpg"
+            "imgurl": "images/member/origami.jpg"
         }
     ],
     "testimonials": [
@@ -129,6 +129,16 @@ let resumeData = {
         {
             "description": "poyopoyo",
             "name": "potopoto"
+        }
+    ],
+    "sponsor" : [
+        {
+            "name": "hogehoge会社",
+            "imgurl":"images/profilepic.jpg"
+        },
+        {
+            "name": "poepoe会社",
+            "imgurl":"images/sample-image.jpg"
         }
     ]
 }

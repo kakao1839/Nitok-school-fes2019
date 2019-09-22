@@ -2,12 +2,12 @@ import React, {Component} from 'react';
 import { Zoom } from 'react-slideshow-image';
 
 const images = [
-    'images/g.jpg',
-    'images/a.jpg',
-    'images/c.jpg',
-    'images/d.jpg',
-    'images/e.jpg',
-    'images/f.jpg',
+    'images/gallery/g.jpg',
+    'images/gallery/a.jpg',
+    'images/gallery/c.jpg',
+    'images/gallery/d.jpg',
+    'images/gallery/e.jpg',
+    'images/gallery/f.jpg',
 ];
 
 const zoomOutProperties = {

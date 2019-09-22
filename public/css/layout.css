@@ -1062,7 +1062,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 .slide-container {
     width: 70%;
-    height: 40%;
+    height: 70%;
     margin: auto; }
 
 h3 {
@@ -1103,4 +1103,27 @@ h3 {
     align-items: center;
     margin: 0;
     background: #adceed;
+}
+
+/*------------------------------------*/
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
 }
