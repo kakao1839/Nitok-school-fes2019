@@ -54,13 +54,11 @@ export default  class Resume extends Component {
                                         </div>
 
                                     </div>
-
                                 )
                             })
                         }
                     </div>
                 </div>
-
 
                 <div className="row skill">
 

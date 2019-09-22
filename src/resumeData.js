@@ -10,7 +10,7 @@ let resumeData = {
         {
             "name": "linkedin",
             "url": "https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-            "className": "fa fa-linkedin"
+            "className": "fa fa-instagram"
         },
         {
             "name": "github",
@@ -24,6 +24,7 @@ let resumeData = {
         }
     ],
     "aboutme": "第15回目の沖縄工業高等専門学校の学園祭です．",
+    "time": "1日目: 09:00~17:00 / 2日目: 09:00~17:00",
     "address": "〒905-2171 沖縄県名護市字辺野古905",
     "website": "http://www.okinawa-ct.ac.jp",
     "education": [

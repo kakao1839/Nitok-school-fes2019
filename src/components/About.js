@@ -21,7 +21,11 @@ export default class About extends Component {
                                 resumeData.aboutme
                             }
                         </p>
-
+                        <p>
+                            {
+                                resumeData.time
+                            }
+                        </p>
                         <div className="row">
 
                             <div className="columns contact-details">
