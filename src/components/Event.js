@@ -184,11 +184,6 @@ export default class Resume extends Component {
                                                 <div className="card-description">
                                                     とてもたのしいよ
                                                 </div>
-                                                <div className="card-flap flap2">
-                                                    <div className="card-actions">
-                                                        <a href="#" className="btn">Read more</a>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
 
