@@ -16,4 +16,4 @@ Access: localhost:3000
 ## TODO:
 ･フォントの変更 <br>
 ･レスポンシブデザインの改良 <br>
-･Galleryの改変
+･Galleryの改変 <br>
