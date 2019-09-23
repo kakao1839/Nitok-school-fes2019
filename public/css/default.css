@@ -9,9 +9,6 @@
 
 /* ------------------------------------------------------------------
 /* b. Reset
-      Adapted from:
-      Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
 html, body, div, span, object, iframe,
@@ -141,7 +138,6 @@ body {
 }
 
 /*  2. Typography
-       Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
