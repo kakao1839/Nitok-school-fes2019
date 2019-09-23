@@ -12,3 +12,8 @@ npm install
 npm start
 ```
 Access: localhost:3000
+
+## TODO:
+･フォントの変更 <br>
+･レスポンシブデザインの改良 <br>
+･Galleryの改変
