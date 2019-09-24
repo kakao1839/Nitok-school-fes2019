@@ -17,7 +17,9 @@ export default class Testimonials extends Component {
                       return(
                         <li>
                           <blockquote>
-                            <h2>
+                            <h2 id='event' style={{
+                              background: "initial"
+                            }}>
                               {item.description}
                             </h2>
                             <cite>{item.name} ({item.place})</cite>
