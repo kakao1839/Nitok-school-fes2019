@@ -1328,118 +1328,9 @@ footer .social-links li:first-child {
     background-color: #0F9095;
 }
 
-
-/*---------------------------*/
-
-.slide-container {
-    width: 70%;
-    height: 70%;
-    margin: auto;
-}
-
-h3 {
-    text-align: center;
-}
-
-.each-slide > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    height: 10px;
-}
-
-.each-slide span {
-    padding: 20px;
-    font-size: 20px;
-    background: #efefef;
-    text-align: center;
-}
-
-.each-fade {
-    display: flex;
-}
-
-.each-fade .image-container {
-    width: 40%;
-    overflow: hidden;
-}
-
-.each-fade .image-container img {
-    width: 50%;
-}
-
-.each-fade h6 {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background: #adceed;
-}
-
 /*------------------------------------*/
-details {
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: .5em .5em 0;
-}
-
-summary {
-    font-weight: bold;
-    margin: -.5em -.5em 0;
-    padding: .5em;
-}
-
-
-details[open] {
-    padding: .5em;
-}
-
-details[open] summary {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: .5em;
-}
-
-
+/*Event                               */
 /*------------------------------------*/
-
-
-.vertical-scroll-table {
-    color: #e6e6e6;
-    max-height: 400px;
-    margin-left: 30%;
-    margin-right: 30%;
-    overflow: auto;
-    overflow-x: hidden;
-}
-
-.vertical-scroll-table table {
-    width: 750px;
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-.vertical-scroll-table table thead tr {
-    font-weight: bold;
-    text-align: center;
-    background-color: #818282;
-}
-
-.vertical-scroll-table table tbody tr:nth-child(even) {
-    background-color: #909192;
-}
-
-.vertical-scroll-table table td {
-    width: 60%;
-    padding: 5px;
-    border: 1px solid #ddd;
-}
-
-
-/*------------------------------------*/
-
-
 
 h1 {
     margin: 0;
@@ -1458,13 +1349,6 @@ input {
     z-index: -1;
 }
 
-.row {
-    display: flex;
-}
-
-.row .col {
-    flex: 1;
-}
 
 .row .col:last-child {
     margin-left: 1em;
@@ -1774,3 +1658,116 @@ div.card.show div.flap1 {
 div.card.show div.flap2 {
     transition: all 0.3s 0.2s ease-out;
 }
+
+
+/*------------------------------------*/
+/*Menber                              */
+/*------------------------------------*/
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+
+/*------------------------------------*/
+/*Gallery                             */
+/*------------------------------------*/
+.slide-container {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 10px;
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.each-fade {
+    display: flex;
+}
+
+.each-fade .image-container {
+    width: 40%;
+    overflow: hidden;
+}
+
+.each-fade .image-container img {
+    width: 50%;
+}
+
+.each-fade h6 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+}
+
+
+/*------------------------------------*/
+/*Sponcor                             */
+/*------------------------------------*/
+.vertical-scroll-table {
+    color: #e6e6e6;
+    max-height: 350px;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.vertical-scroll-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.vertical-scroll-table table thead tr {
+    font-weight: bold;
+    text-align: center;
+    background-color: #818282;
+}
+
+.vertical-scroll-table table tbody tr:nth-child(even) {
+    background-color: #909192;
+}
+
+.vertical-scroll-table table td {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+

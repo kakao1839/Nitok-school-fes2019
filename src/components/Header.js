@@ -22,7 +22,9 @@ export default class Header extends Component {
 
                     <div className="row banner">
                         <div className="banner-text">
-                            <h1 className="responsive-headline">{resumeData.name}</h1>
+                            <h1 className="responsive-headline" style={{
+                                fontFamily: 'Hiragino Kaku Gothic Pro'
+                            }}>第15回 {resumeData.name}</h1>
                             <h2 style={{
                                 color: '#fff',
                                 fontFamily: 'sans-serif '
@@ -39,8 +41,10 @@ export default class Header extends Component {
                                     resumeData.socialLinks && resumeData.socialLinks.map(item => {
                                             return (
                                                 <li key={item.name}>
+                                                    <h2>
                                                     <a href={item.url} target="_blank">
                                                         <i className={item.className}></i></a>
+                                                    </h2>
                                                 </li>
                                             )
                                         }
