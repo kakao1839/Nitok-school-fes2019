@@ -1,16 +1,14 @@
 {
   "name": "resume",
+  "homepage": "https://kakao1839.github.io/nitok-school-fes2019",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "latest",
-    "axios": "^0.19.0",
-    "bootstrap": "^4.3.1",
     "clsx": "latest",
     "jquery": "^3.4.1",
-    "mdbreact": "^4.20.0",
     "prop-types": "latest",
-    "react": "^16.6.0",
+    "react": "^16.9.0",
     "react-bootstrap-table-next": "^3.2.0",
     "react-bootstrap-table2-filter": "^1.2.0",
     "react-bootstrap-table2-toolkit": "^2.1.0",
@@ -22,7 +20,7 @@
     "react-slideshow-image": "^1.3.0",
     "react-virtualized": "^9.21.1"
   },
-  "homepage": "https://kakao1839.github.io/nitok-schoolfes2019",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,5 +40,5 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.1.1"
-  },
+  }
 }
