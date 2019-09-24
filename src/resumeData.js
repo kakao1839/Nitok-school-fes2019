@@ -1,21 +1,16 @@
 let resumeData = {
     "imagebaseurl": "https://rbhatia46.github.io/",
-    "name": "第15回 沖縄高専祭",
+    "name": "沖縄高専祭",
     "schoolname": "沖縄工業高等専門学校",
-    "role": "1日目: 10/26",
+    "role": "10/26(土)",
     "linkedinId": "Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "2日目: 10/27",
+    "roleDescription": "10/27(日)",
     "socialLinks": [
         {
             "name": "linkedin",
-            "url": "https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+            "url": "https://www.instagram.com/",
             "className": "fa fa-instagram"
-        },
-        {
-            "name": "github",
-            "url": "http://github.com/kakao1839",
-            "className": "fa fa-github"
         },
         {
             "name": "Twitter",

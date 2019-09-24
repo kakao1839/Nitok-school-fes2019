@@ -4,6 +4,12 @@
  * Open Sans
 ================================================================================ */
 @font-face {
+    font-family: 'M+PLUS+1p';
+    src: url("https://fonts.googleapis.com/css?family=M+PLUS+1p");
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'opensans-regular';
     src: url('fonts/opensans/OpenSans-Regular-webfont.eot');
     src: url('fonts/opensans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -106,7 +112,7 @@
 
 /*
  * Libre Baskerville
-================================================================================ */   
+================================================================================ */
 @font-face {
     font-family: 'librebaskerville-bold';
     src: url('fonts/librebaskerville/librebaskerville-bold-webfont.eot');

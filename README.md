@@ -15,5 +15,4 @@ Access [localhost:3000](http://localhost:3000/)
 
 ## TODO:
 ･フォントの変更 <br>
-･レスポンシブデザインの改良 <br>
 ･Galleryの改変 <br>
