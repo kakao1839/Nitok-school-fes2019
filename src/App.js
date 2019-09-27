@@ -9,20 +9,20 @@ import Sponsor from './components/Sponsor';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Header resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
-        <Testimonials resumeData={resumeData}/>
-        <Event resumeData={resumeData}/>
-        <Portfolio resumeData={resumeData}/>
-        <Resume resumeData={resumeData}/>
-        <Sponsor resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="App">
+                <Header resumeData={resumeData}/>
+                <Testimonials resumeData={resumeData}/>
+                <Event resumeData={resumeData}/>
+                <Portfolio resumeData={resumeData}/>
+                <Resume resumeData={resumeData}/>
+                <Sponsor resumeData={resumeData}/>
+                <About resumeData={resumeData}/>
+                <Footer resumeData={resumeData}/>
+            </div>
+        );
+    }
 }
 
 export default App;
