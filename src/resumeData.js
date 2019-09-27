@@ -65,6 +65,7 @@ let resumeData = {
             "imgurl": "images/member/origami.jpg"
         }
     ],
+
     "testimonials": [
         {
             "description": "Event",
@@ -87,6 +88,7 @@ let resumeData = {
             "name": "potopoto"
         }
     ],
+
     "sponsor" : [
         {
             "name": "hogehoge会社",
