@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c7f20ca-ebc6-491c-add9-7c841a8c087c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Event.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3071">
-              <caret line="859" column="16" selection-start-line="859" selection-start-column="16" selection-end-line="859" selection-end-column="16" />
+            <state relative-caret-position="215">
+              <caret line="62" column="82" selection-start-line="62" selection-start-column="82" selection-end-line="62" selection-end-column="82" />
+              <folding>
+                <element signature="e#11#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,8 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="162">
+              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-613">
+              <caret line="829" column="16" lean-forward="true" selection-start-line="829" selection-start-column="16" selection-end-line="829" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -63,30 +73,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resumeData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="792">
+              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/fontello/css/fontello-ie7-codes.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/font-awesome/fonts/FontAwesome.otf">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
+            <state relative-caret-position="774">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
@@ -104,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Testimonials.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="223">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -124,8 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fa fa-github</find>
-      <find>fa</find>
       <find>fa-github</find>
       <find>icon</find>
       <find>@fa-var-github</find>
@@ -154,6 +148,8 @@
       <find>master</find>
       <find>kakao</find>
       <find>ka</find>
+      <find>tes</find>
+      <find>E</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,9 +172,7 @@
         <option value="$PROJECT_DIR$/src/components/About.js" />
         <option value="$PROJECT_DIR$/public/css/font-awesome/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/src/components/Sponsor.js" />
-        <option value="$PROJECT_DIR$/src/resumeData.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Event.js" />
         <option value="$PROJECT_DIR$/src/components/Gallery.js" />
         <option value="$PROJECT_DIR$/public/css/media-queries.css" />
         <option value="$PROJECT_DIR$/public/css/default.css" />
@@ -187,9 +181,11 @@
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/src/components/Testimonials.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/css/layout.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/public/css/layout.css" />
+        <option value="$PROJECT_DIR$/src/components/Event.js" />
+        <option value="$PROJECT_DIR$/src/resumeData.js" />
       </list>
     </option>
   </component>
@@ -359,7 +355,7 @@
       <workItem from="1569234629813" duration="958000" />
       <workItem from="1569330860806" duration="5273000" />
       <workItem from="1569374746948" duration="6565000" />
-      <workItem from="1569544614074" duration="1440000" />
+      <workItem from="1569544614074" duration="5358000" />
     </task>
     <task id="LOCAL-00001" summary="✍firstCommit">
       <created>1569007266879</created>
@@ -585,17 +581,31 @@
       <option name="project" value="LOCAL" />
       <updated>1569381069144</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="🛠Aboutの位置変更">
+      <created>1569546814455</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1569546814455</updated>
+    </task>
+    <task id="LOCAL-00034" summary="🛠微調整">
+      <created>1569552071510</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1569552071510</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116195000" />
+    <option name="totallyTimeSpent" value="120113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7108434" visible="true" weight="0.24925596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7108434" visible="true" weight="0.10565476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.28915662" side_tool="true" weight="0.24925596" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -609,7 +619,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015806" side_tool="true" weight="0.3033226" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49841937" visible="true" weight="0.33172303" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49841937" visible="true" weight="0.33172303" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -635,6 +645,8 @@
     <MESSAGE value="✍README.md" />
     <MESSAGE value="fixbug" />
     <MESSAGE value="GitHubPages" />
+    <MESSAGE value="微調整" />
+    <MESSAGE value="Aboutの位置変更" />
     <MESSAGE value="微調整" />
     <option name="LAST_COMMIT_MESSAGE" value="微調整" />
   </component>
@@ -802,27 +814,10 @@
     <entry file="file://$PROJECT_DIR$/docs/build/index.html" />
     <entry file="file://$PROJECT_DIR$/docs/index.html" />
     <entry file="file://$PROJECT_DIR$/build/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/components/Event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8928">
-          <caret line="497" column="60" selection-start-line="497" selection-start-column="60" selection-end-line="497" selection-end-column="60" />
-          <folding>
-            <element signature="e#11#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27666">
-          <caret line="1537" column="15" selection-start-line="1537" selection-start-column="15" selection-end-line="1537" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -843,20 +838,6 @@
             <caret line="18" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Testimonials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -881,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resumeData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -898,17 +872,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="719" column="12" lean-forward="true" selection-start-line="719" selection-start-column="12" selection-end-line="719" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-613">
+          <caret line="829" column="16" lean-forward="true" selection-start-line="829" selection-start-column="16" selection-end-line="829" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="62" column="82" selection-start-line="62" selection-start-column="82" selection-end-line="62" selection-end-column="82" />
+          <folding>
+            <element signature="e#11#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
+        <state relative-caret-position="774">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/resumeData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3071">
-          <caret line="859" column="16" selection-start-line="859" selection-start-column="16" selection-end-line="859" selection-end-column="16" />
+        <state relative-caret-position="792">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Testimonials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
