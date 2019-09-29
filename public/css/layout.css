@@ -1771,3 +1771,68 @@ h3 {
     padding: 5px;
     border: 1px solid #ddd;
 }
+
+/*------------------------------------*/
+/*About                               */
+/*------------------------------------*/
+
+#greeting {
+    background: #151515;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+
+#greeting a, #greeting a:visited {
+    color: #fff;
+}
+
+#greeting a:hover, #greeting a:focus {
+    color: #11ABB0;
+}
+
+#greeting h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+#greeting p {
+    line-height: 30px;
+    color: #7A7A7A;
+}
+
+#greeting .profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+#greeting .contact-details {
+    width: 41.66667%;
+}
+
+#greeting .download {
+    width: 58.33333%;
+    padding-top: 6px;
+}
+
+#greeting .main-col {
+    padding-right: 5%;
+}
+
+#greeting .download .button {
+    margin-top: 6px;
+    background: #1c1c1c;
+}
+
+#greeting .download .button:hover {
+    background: #fff;
+    color: #090909;
+}
+
+#greeting .download .button i {
+    margin-right: 15px;
+    font-size: 20px;
+}
