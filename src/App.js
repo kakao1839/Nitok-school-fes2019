@@ -5,9 +5,12 @@ import Resume from './components/Gallery';
 import Testimonials from  './components/Testimonials'; //Event
 import Event from './components/Event'; //Gallery
 import Portfolio from './components/Member';
+import Greeting from './components/Greeting';
 import Sponsor from './components/Sponsor';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import './App.css'
+
 class App extends Component {
     render() {
         return (
@@ -17,6 +20,7 @@ class App extends Component {
                 <Event resumeData={resumeData}/>
                 <Portfolio resumeData={resumeData}/>
                 <Resume resumeData={resumeData}/>
+                <Greeting resumeData={resumeData} />
                 <Sponsor resumeData={resumeData}/>
                 <About resumeData={resumeData}/>
                 <Footer resumeData={resumeData}/>
