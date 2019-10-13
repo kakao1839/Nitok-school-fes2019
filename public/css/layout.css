@@ -4,6 +4,8 @@
 
 body {
     background: #0f0f0f;
+  /*  touch-action: none;
+    overflow: hidden; */
 }
 
 /* ------------------------------------------------------------------ */
@@ -1836,3 +1838,10 @@ h3 {
     margin-right: 15px;
     font-size: 20px;
 }
+
+
+
+
+
+
+
