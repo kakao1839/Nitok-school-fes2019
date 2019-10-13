@@ -13,8 +13,7 @@ export default class About extends Component {
                         <div className="columns contact-details">
                             <h2>校長挨拶</h2>
                             <p className="address">
-                                校長のENDOです。こんばんはこんにちはおはようございます
-                                ごきげんよう。
+                                校長先生の挨拶
                             </p>
                         </div>
                     </div>
