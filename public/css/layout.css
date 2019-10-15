@@ -1402,6 +1402,17 @@ input {
     overflow: auto;
 }
 
+.tab-content2 {
+    width:100%;
+    height:100%;
+    max-height: 0;
+    padding: 0 1em;
+    color: #2b4057;
+    background: white;
+    transition: all 0.35s;
+    overflow: auto;
+}
+
 .tab-close {
     display: flex;
     justify-content: flex-end;
@@ -1425,6 +1436,11 @@ input:checked + .tab-label::after {
 }
 
 input:checked ~ .tab-content {
+     max-height: 140vh;
+     padding: 1em;
+ }
+
+input:checked ~ .tab-content2 {
     max-height: 140vh;
     padding: 1em;
 }
