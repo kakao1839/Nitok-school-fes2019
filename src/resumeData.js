@@ -118,8 +118,8 @@ let resumeData = {
             "position":"物品居",
             "name": "徳森 大毅",
             "description": "物品は大切にしましょう！",
-            "imgurl": "images/member/物品居.jpg"
-        }
+            "imgurl": "images/member/物品局.jpg"
+        },
     ],
     "testimonials": [
         {

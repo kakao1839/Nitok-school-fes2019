@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7f20ca-ebc6-491c-add9-7c841a8c087c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/member/イベント局.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/パンフレット局.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/会計局.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/副実行委員長1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/副実行委員長2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/実行委員長.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/実行委員長補佐.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/広報局.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/庶務局.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/後夜祭局.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/装飾局.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/警備局.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/運営局.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/member/食品衛生局.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Member.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Member.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/coffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/console.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/farmerboy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/girl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/into-the-light.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/judah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/member1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/origami.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/retrocam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/物品局.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/member/物品局.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resumeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resumeData.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -64,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resumeData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="115" column="10" lean-forward="true" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+            <state relative-caret-position="458">
+              <caret line="120" column="40" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -361,7 +356,7 @@
       <workItem from="1571035661596" duration="8408000" />
       <workItem from="1571095849903" duration="64000" />
       <workItem from="1571123870779" duration="51000" />
-      <workItem from="1571130050914" duration="10831000" />
+      <workItem from="1571130050914" duration="11237000" />
     </task>
     <task id="LOCAL-00001" summary="✍firstCommit">
       <created>1569007266879</created>
@@ -601,11 +596,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571145133811</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="✍member pic">
+      <created>1571155639233</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1571155639233</updated>
+    </task>
+    <task id="LOCAL-00036" summary="✍member pic">
+      <created>1571155853016</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1571155853016</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135125000" />
+    <option name="totallyTimeSpent" value="135531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="22" width="1936" height="1066" extended-state="6" />
@@ -694,16 +703,10 @@
     <MESSAGE value="fix" />
     <MESSAGE value="TimeTable" />
     <MESSAGE value="校長挨拶" />
-    <option name="LAST_COMMIT_MESSAGE" value="校長挨拶" />
+    <MESSAGE value="✍member pic" />
+    <option name="LAST_COMMIT_MESSAGE" value="✍member pic" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/font-awesome/scss/_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/magnific-popup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -952,10 +955,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/member/物品局.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resumeData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="115" column="10" lean-forward="true" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+        <state relative-caret-position="458">
+          <caret line="120" column="40" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
         </state>
       </provider>
     </entry>
