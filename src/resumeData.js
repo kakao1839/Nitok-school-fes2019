@@ -109,17 +109,17 @@ let resumeData = {
             "imgurl": "images/member/運営局.jpg"
         },
         {
-            "position":"",
-            "name": "",
-            "description": "",
-            "imgurl": "images/member/.jpg"
+            "position":"演出局",
+            "name": "宇良 佳晟",
+            "description": "演出局長の宇良佳晟です。演出局は主にピロティでのバンド演奏を担当しています！よければ見に来てください！",
+            "imgurl": "images/member/演出局.jpg"
         },
         {
-            "position":"",
-            "name": "",
-            "description": "",
-            "imgurl": "images/member/.jpg"
-        },
+            "position":"物品居",
+            "name": "徳森 大毅",
+            "description": "物品は大切にしましょう！",
+            "imgurl": "images/member/物品居.jpg"
+        }
     ],
     "testimonials": [
         {
