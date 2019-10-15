@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7f20ca-ebc6-491c-add9-7c841a8c087c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/member/イベント局.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/パンフレット局.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/会計局.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/副実行委員長1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/副実行委員長2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/実行委員長.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/実行委員長補佐.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/広報局.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/庶務局.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/後夜祭局.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/装飾局.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/警備局.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/運営局.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/member/食品衛生局.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Member.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Member.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resumeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resumeData.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,26 +46,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Member.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="94" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
+            <state relative-caret-position="342">
+              <caret line="19" column="72" lean-forward="true" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-185">
+              <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resumeData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="37" />
+            <state relative-caret-position="476">
+              <caret line="115" column="10" lean-forward="true" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -110,11 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -126,7 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fa fa-github</find>
       <find>fa</find>
       <find>fa-github</find>
       <find>icon</find>
@@ -156,6 +164,7 @@
       <find>three columns</find>
       <find>profile-pic</find>
       <find>tab-content</find>
+      <find>modal-01</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,10 +183,8 @@
         <option value="$PROJECT_DIR$/public/js/magnific-popup.js" />
         <option value="$PROJECT_DIR$/src/components/Resume.js" />
         <option value="$PROJECT_DIR$/src/components/Portfolio.js" />
-        <option value="$PROJECT_DIR$/src/components/Member.js" />
         <option value="$PROJECT_DIR$/src/components/About.js" />
         <option value="$PROJECT_DIR$/public/css/font-awesome/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/src/resumeData.js" />
         <option value="$PROJECT_DIR$/src/components/Gallery.js" />
         <option value="$PROJECT_DIR$/public/css/media-queries.css" />
         <option value="$PROJECT_DIR$/public/css/default.css" />
@@ -195,12 +202,15 @@
         <option value="$PROJECT_DIR$/src/components/Event.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/Member.js" />
+        <option value="$PROJECT_DIR$/build/static/js/main.46cff673.chunk.js" />
+        <option value="$PROJECT_DIR$/src/resumeData.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-396" />
-    <option name="y" value="332" />
+    <option name="x" value="-2052" />
+    <option name="y" value="264" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -227,6 +237,19 @@
               <item name="nitok-school-fes2019" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nitok-school-fes2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nitok-school-fes2019" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nitok-school-fes2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nitok-school-fes2019" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nitok-school-fes2019" type="b2602c69:ProjectViewProjectNode" />
@@ -262,11 +285,11 @@
       <recent name="https://github.com/festivals-tech/npm-festivals-react.git" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kaka\Documents\Programing\Web\nitok-school-fes2019\public\images\member" />
       <recent name="C:\Users\THINKPAD\Documents\Programing\Web\nitok-school-fes2019\public\images\member" />
       <recent name="C:\Users\THINKPAD\Documents\Programing\Web\nitok-school-fes2019\public\images\gallery" />
       <recent name="C:\Users\THINKPAD\Documents\Programing\Web\nitok-school-fes2019\public\images" />
       <recent name="C:\Users\THINKPAD\Documents\Programing\Web\nitok-school-fes2019\public\images\portfolio" />
-      <recent name="C:\Users\THINKPAD\Documents\Programing\Web\nitok-school-fes2019\public\css\font-awesome\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -338,7 +361,7 @@
       <workItem from="1571035661596" duration="8408000" />
       <workItem from="1571095849903" duration="64000" />
       <workItem from="1571123870779" duration="51000" />
-      <workItem from="1571130050914" duration="5944000" />
+      <workItem from="1571130050914" duration="10831000" />
     </task>
     <task id="LOCAL-00001" summary="✍firstCommit">
       <created>1569007266879</created>
@@ -571,14 +594,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571145095842</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="🗑校長挨拶">
+      <created>1571145133811</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1571145133811</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130238000" />
+    <option name="totallyTimeSpent" value="135125000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-1928" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71275455" visible="true" weight="0.10800843" />
@@ -663,19 +693,10 @@
     <MESSAGE value="GitHubPages" />
     <MESSAGE value="fix" />
     <MESSAGE value="TimeTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="TimeTable" />
+    <MESSAGE value="校長挨拶" />
+    <option name="LAST_COMMIT_MESSAGE" value="校長挨拶" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/font-awesome/scss/_icons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
@@ -867,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resumeData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Gallery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -897,13 +911,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/member/coffee.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Member.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -926,8 +933,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="94" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
+        <state relative-caret-position="-185">
+          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.46cff673.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="292" column="186" selection-start-line="292" selection-start-column="186" selection-end-line="292" selection-end-column="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Member.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="72" lean-forward="true" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resumeData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="115" column="10" lean-forward="true" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
         </state>
       </provider>
     </entry>

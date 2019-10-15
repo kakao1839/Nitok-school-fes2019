@@ -25,45 +25,101 @@ let resumeData = {
     // Gallery
     "portfolio": [
         {
-            "name": "リチャード・ストールマン",
-            "description": "GNU's Not Unix",
-            "imgurl": "images/member/noimage.jpg"
+            "position": "実行委員長",
+            "name": "岡野 祥希",
+            "description": "Happy Hallowe'en！みんなで最高の高専祭にしましょう！",
+            "imgurl": "images/member/実行委員長.jpg"
         },
         {
-            "name": "image2",
-            "description": "this is image",
-            "imgurl": "images/member/origami.jpg"
+            "position":"実行委員長補佐",
+            "name": "平良莉子",
+            "description": "高専祭楽しんでください！",
+            "imgurl": "images/member/実行委員長補佐.jpg"
         },
         {
-            "name": "image3",
-            "description": "this is image",
-            "imgurl": "images/member/origami.jpg"
+            "position":"副実行委員長",
+            "name": "比嘉 駿",
+            "description": "今年は副実行委員長！怖いけど、最高の思い出にしたいです！",
+            "imgurl": "images/member/副実行委員長1.jpg"
         },
         {
-            "name": "image4",
-            "description": "this is image",
-            "imgurl": "images/member/origami.jpg"
+            "position":"副実行委員長",
+            "name": "安山 千鶴",
+            "description": "高専祭、全力で楽しんでいきましょう！！見かけたらぜひ声かけてくれると嬉しいです！！",
+            "imgurl": "images/member/副実行委員長2.jpg"
         },
         {
-            "name": "image5",
-            "description": "this is image",
-            "imgurl": "images/member/origami.jpg"
+            "position":"庶務局",
+            "name": "山城 拓万",
+            "description": "庶務局局長の山城拓万です。裏から良い高専祭にできるよう頑張ります！",
+            "imgurl": "images/member/庶務局.jpg"
         },
         {
-            "name": "image6",
-            "description": "this is image",
-            "imgurl": "images/member/origami.jpg"
+            "position":"食品衛生局",
+            "name": "兼城 凜多",
+            "description": "食中毒に気をつけて楽しい高専祭にしましょう！",
+            "imgurl": "images/member/食品衛生局.jpg"
         },
         {
-            "name": "image7",
-            "description": "this is image",
-            "imgurl": "images/member/origami.jpg"
+            "position":"装飾局",
+            "name": "與儀 郁実",
+            "description": "昨年の高専祭は100人と自撮りするチャレンジをして失敗しました。今年はリベンジするのでよろしくおねがいします♡",
+            "imgurl": "images/member/装飾局.jpg"
         },
         {
-            "name": "image8",
-            "description": "this is image",
-            "imgurl": "images/member/origami.jpg"
-        }
+            "position":"イベント局",
+            "name": "与那覇 星希",
+            "description": "高専祭えぐいてぇー",
+            "imgurl": "images/member/イベント局.jpg"
+        },
+        {
+            "position":"パンフレット局",
+            "name": "神山 竜治",
+            "description": "みんなで頑張ってパンフレット作りました。高専祭楽しんでください！",
+            "imgurl": "images/member/パンフレット局.jpg"
+        },
+        {
+            "position":"後夜祭局",
+            "name": "比嘉 菜緒",
+            "description": "そうです、僕たちがやりました",
+            "imgurl": "images/member/後夜祭局.jpg"
+        },
+        {
+            "position":"警備局",
+            "name": "田中 颯汰龍",
+            "description": "警備局長の田中颯汰龍です！車に気をつけて楽しい高専祭にしましょう！",
+            "imgurl": "images/member/警備局.jpg"
+        },
+        {
+            "position":"広報局",
+            "name": "花光 渉",
+            "description": "イベント・企画盛りだくさんの高専祭！みんなで楽しみましょう！",
+            "imgurl": "images/member/広報局.jpg"
+        },
+        {
+            "position":"会計局",
+            "name": "香村 真衣",
+            "description": "はじけりゃYea! 素直にGood!だからちょいと重いのはBoo！",
+            "imgurl": "images/member/会計局.jpg"
+        },
+        {
+            "position":"運営局",
+            "name": "與那嶺 侑也",
+            "description": "運営局の與那嶺侑也です。体育館のプログラムは面白く、盛り上がれるようなになっています。体育館に来て、盛り上がりましょう‼",
+            "imgurl": "images/member/運営局.jpg"
+        },
+        {
+            "position":"",
+            "name": "",
+            "description": "",
+            "imgurl": "images/member/.jpg"
+        },
+        {
+            "position":"",
+            "name": "",
+            "description": "",
+            "imgurl": "images/member/.jpg"
+        },
     ],
     "testimonials": [
         {
