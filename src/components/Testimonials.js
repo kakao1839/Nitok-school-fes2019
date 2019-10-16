@@ -18,11 +18,11 @@ export default class Testimonials extends Component {
                         <li>
                           <blockquote>
                             <h2 id='event' style={{
-                              background: "initial"
+                              background: "initial",
                             }}>
                               {item.description}
                             </h2>
-                            <cite>{item.name} ({item.place})</cite>
+                            <cite style={{ fontFamily: 'yasasisa'}}>{item.place}</cite>
                           </blockquote>
                         </li>
                       )

@@ -124,8 +124,8 @@ let resumeData = {
     "testimonials": [
         {
             "description": "Event",
-            "place":"体育館･視聴覚室･校庭...",
-            "name": "Pick up Event!!!!"
+            "place":"Pick up Event!!!!",
+            "name": ""
         },
         {
             "description": "劇",

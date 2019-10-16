@@ -23,16 +23,16 @@ export default class Header extends Component {
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline" style={{
-                                fontFamily: 'Hiragino Kaku Gothic Pro'
-                            }}>第15回 {resumeData.name}</h1>
+                                fontFamily: 'logotype'
+                            }}>第<span c style={{color: '#ffa657', fontSize: '120px'}}>15</span>回 {resumeData.name}</h1>
                             <h2 style={{
                                 color: '#fff',
-                                fontFamily: 'sans-serif '
+                                fontFamily: 'logotype '
                             }}> {resumeData.role}
                             </h2>
                             <h2 style={{
                                 color: '#fff',
-                                fontFamily: 'sans-serif '
+                                fontFamily: 'logotype '
                             }}> {resumeData.roleDescription}
                             </h2>
                             <hr/>

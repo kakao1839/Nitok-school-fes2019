@@ -4,8 +4,20 @@
  * Open Sans
 ================================================================================ */
 @font-face {
-    font-family: 'M+PLUS+1p';
-    src: url("https://fonts.googleapis.com/css?family=M+PLUS+1p");
+    font-family: 'yasasisa';
+    src: url("fonts/07やさしさゴシック.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kanazawa';
+    src: url("fonts/かなざわ本丸ゴシックmini.otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'logotype';
+    src: url("fonts/corp_round_v1.ttf");
     font-style: normal;
 }
 
@@ -162,6 +174,4 @@
 
 }
 
-/*
- * Japanese Font
-================================================================================ */
+
