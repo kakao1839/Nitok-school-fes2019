@@ -9,12 +9,12 @@ let resumeData = {
     "socialLinks": [
         {
             "name": "linkedin",
-            "url": "https://www.instagram.com/",
+            "url": "https://www.instagram.com/nitoc15_fes",
             "className": "fa fa-instagram"
         },
         {
             "name": "Twitter",
-            "url": "https://twitter.com/",
+            "url": "https://twitter.com/nitoc15_fes",
             "className": "fa fa-twitter"
         }
     ],
