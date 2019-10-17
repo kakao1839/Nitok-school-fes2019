@@ -79,7 +79,7 @@ header .banner-text hr {
     width: 60%;
     margin: 18px auto 24px auto;
     border-color: #2F2D2E;
-    border-color: rgba(150, 150, 150, .1);
+    border-color: rgba(38, 61, 150, 0.3);
 }
 
 /* header social links */
@@ -102,6 +102,9 @@ header .social li a {
 
 header .social li a:hover {
     color: #11ABB0;
+  text-shadow:
+    #a05666 1px 1px 15px, #a05666 -1px 1px 15px,
+    #fffaf5 1px -1px 10px, #fffaf5 -1px -1px 10px;
 }
 
 /* scrolldown link */
@@ -127,6 +130,9 @@ header .scrolldown a {
 
 header .scrolldown a:hover {
     color: #11ABB0;
+  text-shadow:
+    #a0797e 1px 1px 10px, #a0797e -1px 1px 10px,
+    #fffaf5 1px -1px 10px, #fffaf5 -1px -1px 10px;
 }
 
 /* primary navigation

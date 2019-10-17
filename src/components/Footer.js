@@ -15,14 +15,16 @@ export default class Footer extends Component {
                     <i className={item.className} />
                     </a>
                   </li>
-
                 )
               })
             }
           </ul>
 
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
+        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home">
+          <i className="icon-up-open" /></a></div>
+        <p>Web: &copy; 2019 NIT-ok Festival</p>
+        <p>Top illust: &copy; 2019 kirota</p>
       </div>
     </footer>
     );
