@@ -152,10 +152,6 @@ let resumeData = {
             "name": "PPP"
         },
         {
-            "description": "",
-            "name": "イベント局"
-        },
-        {
             "description": "劇",
             "name": "3-ms"
         },

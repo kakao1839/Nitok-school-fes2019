@@ -27,7 +27,7 @@ export default class Header extends Component {
                     <div className="popup-inner">
                         <div className="close-btn" id="js-close-btn"><i className="fa fa-times"></i></div>
                         <a href="https://forms.gle/UHzRbrPNNVyafu9B7" target="_blank" rel="noopener">
-                            <h1 style={{fontFamily: 'logotype '}}><span style={{color: '#437DA0'}}>アンケート</span>にご協力ください</h1></a>
+                            <h1 style={{fontFamily: 'logotype '}}><span style={{color: '#437DA0', fontSize: '50px'}}>アンケート</span>にご協力ください</h1></a>
                         <a className="button" href="https://forms.gle/UHzRbrPNNVyafu9B7" target="_blank" rel="noopener" style={{fontFamily: 'logotype '}}>協力する</a>
                     </div>
                     <div className="black-background" id="js-black-bg"></div>
