@@ -19,8 +19,8 @@ let resumeData = {
         },
         {
             "name": 'an queat',
-            "url":"https://docs.google.com/forms/d/e/1FAIpQLSdbG846AdI9rd8a0mXeTbMUNzmiDjdb8DdvAIVQbG7sOl2qGQ/viewform",
-            "className": "fa fa-check"
+            "url":"pamphlet.pdf",
+            "className": "fa fa-file"
         },
     ],
     "aboutme": "第15回目の沖縄工業高等専門学校の学園祭です．",

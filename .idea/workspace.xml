@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a2b25d-ada8-432c-930a-46b54f0cbc7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/JKG-M_3.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/NasuM-Regular-20141215.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/logotypejp_mp_b_1.1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pamphlet.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resumeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resumeData.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resumeData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="165" column="9" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
+            <state relative-caret-position="378">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -69,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Testimonials.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -82,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/public/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="284">
-              <caret line="1737" column="24" lean-forward="true" selection-start-line="1737" selection-start-column="4" selection-end-line="1737" selection-end-column="24" />
+              <caret line="1737" column="24" selection-start-line="1737" selection-start-column="4" selection-end-line="1737" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -96,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -149,11 +146,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/public/css/default.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/src/resumeData.js" />
         <option value="$PROJECT_DIR$/public/css/fonts.css" />
         <option value="$PROJECT_DIR$/public/css/layout.css" />
         <option value="$PROJECT_DIR$/src/components/Testimonials.js" />
+        <option value="$PROJECT_DIR$/src/resumeData.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
       </list>
     </option>
   </component>
@@ -329,7 +326,7 @@
       <workItem from="1571123870779" duration="51000" />
       <workItem from="1571130050914" duration="11237000" />
       <workItem from="1571309499532" duration="3189000" />
-      <workItem from="1571313072879" duration="11372000" />
+      <workItem from="1571313072879" duration="12019000" />
     </task>
     <task id="LOCAL-00001" summary="✍firstCommit">
       <created>1569007266879</created>
@@ -604,11 +601,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571323876016</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="✅よこにすくろーるしてるやｒつ">
+      <created>1571327515140</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1571327515140</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15476000" />
+    <option name="totallyTimeSpent" value="16123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="22" width="1936" height="1066" extended-state="6" />
@@ -716,7 +720,8 @@
     <MESSAGE value="media query" />
     <MESSAGE value="✍うざいポップアップ" />
     <MESSAGE value="✅うざいポップアップ" />
-    <option name="LAST_COMMIT_MESSAGE" value="✅うざいポップアップ" />
+    <MESSAGE value="✅よこにすくろーるしてるやｒつ" />
+    <option name="LAST_COMMIT_MESSAGE" value="✅よこにすくろーるしてるやｒつ" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Event.js">
@@ -759,34 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="162">
-            <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resumeData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="165" column="9" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -807,7 +788,24 @@
     <entry file="file://$PROJECT_DIR$/public/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
-          <caret line="1737" column="24" lean-forward="true" selection-start-line="1737" selection-start-column="4" selection-end-line="1737" selection-end-column="24" />
+          <caret line="1737" column="24" selection-start-line="1737" selection-start-column="4" selection-end-line="1737" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resumeData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -815,6 +813,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
