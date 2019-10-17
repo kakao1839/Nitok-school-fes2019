@@ -1,13 +1,38 @@
 import React, {Component} from 'react';
 
+window.onload = function() {
+    var popup = document.getElementById('js-popup');
+    if(!popup) return;
+    popup.classList.add('is-show');
+
+    var blackBg = document.getElementById('js-black-bg');
+    var closeBtn = document.getElementById('js-close-btn');
+
+    closePopUp(blackBg);
+    closePopUp(closeBtn);
+
+    function closePopUp(elem) {
+        if(!elem) return;
+        elem.addEventListener('click', function() {
+            popup.classList.remove('is-show');
+        })
+    }
+}
 export default class Header extends Component {
     render() {
         let resumeData = this.props.resumeData;
         return (
             <React.Fragment>
-
+                <div className="popup" id="js-popup">
+                    <div className="popup-inner">
+                        <div className="close-btn" id="js-close-btn"><i className="fa fa-times"></i></div>
+                        <a href="#"><img src="images/member/noimage.jpg"></img></a>
+                    </div>
+                    <div className="black-background" id="js-black-bg"></div>
+                </div>
                 <header id="home">
                     <nav id="nav-wrap">
+
                         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                         <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                         <ul id="nav" className="nav">
@@ -19,7 +44,6 @@ export default class Header extends Component {
                             <li><a className="smoothscroll" href="#about">Access</a></li>
                         </ul>
                     </nav>
-
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline" style={{
@@ -59,7 +83,6 @@ export default class Header extends Component {
                     </p>
 
                 </header>
-
             </React.Fragment>
         );
     }
