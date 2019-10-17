@@ -148,7 +148,7 @@ let resumeData = {
             "name": "セントラルドグマ"
         },
         {
-            "description": "K-POP IDOL",
+            "description": "K-POP",
             "name": "PPP"
         },
         {
@@ -160,7 +160,7 @@ let resumeData = {
             "name": "3-ms"
         },
         {
-            "description": "アイドルとして踊る",
+            "description": "アイドル",
             "name": "旧高専祭"
         },
         {

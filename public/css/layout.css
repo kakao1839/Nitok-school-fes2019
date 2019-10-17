@@ -17,7 +17,7 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../images/header-background.png) no-repeat top center;
+    background: #161415 url(../images/header-background.jpg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -1210,6 +1210,7 @@ input {
 
 .row .col:last-child {
     margin-left: 1em;
+    margin-right: 1em;
 }
 
 /* Accordion styles */
@@ -1617,9 +1618,9 @@ h3 {
 /*------------------------------------*/
 .vertical-scroll-table {
     color: #e6e6e6;
-    max-height: 350px;
-    margin-left: 20%;
-    margin-right: 20%;
+    max-height: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -1641,7 +1642,7 @@ h3 {
 }
 
 .vertical-scroll-table table td {
-    width: 80%;
+    width: 100%;
     padding: 5px;
     border: 1px solid #ddd;
 }
