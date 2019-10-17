@@ -806,7 +806,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+    background: #1F1F1F url(../images/eventback.png) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     background-attachment: fixed;
@@ -1869,3 +1869,6 @@ h3 {
     margin-right: 15px;
     font-size: 20px;
 }
+
+
+/**/

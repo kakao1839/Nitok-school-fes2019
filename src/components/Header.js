@@ -24,7 +24,7 @@ export default class Header extends Component {
                         <div className="banner-text">
                             <h1 className="responsive-headline" style={{
                                 fontFamily: 'logotype'
-                            }}>第<span c style={{color: '#ffa657', fontSize: '120px'}}>15</span>回 {resumeData.name}</h1>
+                            }}>第<span c style={{color: '#ffa657', fontSize: '120px'}}>15</span>回 <span class="brspan">{resumeData.name}</span><p className="sp_br">{resumeData.name}</p></h1>
                             <h2 style={{
                                 color: '#fff',
                                 fontFamily: 'logotype '

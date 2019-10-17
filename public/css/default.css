@@ -785,6 +785,15 @@ properly.
 	text-align: center !important;
 }
 
+@media screen and (min-width: 768px) {
+    .sp_br{
+        display: none;
+    }
+}
 
 
-
+@media screen and (max-width: 768px) {
+    .brspan{
+        display: none;
+    }
+}
