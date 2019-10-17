@@ -4,6 +4,8 @@ export default class Sponsor extends Component {
     render() {
         return (
             <section id="contact">
+                <h1>SPONSOR</h1>
+                <h1>御協賛ありがとうございました</h1>
                 <div className="vertical-scroll-table">
                     <table class="sponsortable">
                         <thead>
