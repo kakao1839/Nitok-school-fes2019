@@ -2,16 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7f20ca-ebc6-491c-add9-7c841a8c087c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/gallery/kamie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gallery/集合写真.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/bord.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/dasyutu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/eizou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/ennichi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/game.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/geki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/kazino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/kyara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/obake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/event/yatai.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/kamie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/gallery/kamie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/header-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/modals/m-coffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/modals/m-console.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/modals/m-farmerboy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/modals/m-girl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/modals/m-intothelight.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/modals/m-judah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/modals/m-origami.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/member/modals/m-retrocam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/sample-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Event.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resumeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resumeData.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +58,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -391,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571155853016</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="✍修正">
+      <created>1571290023793</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1571290023793</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +459,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="✍firstCommit" />
     <MESSAGE value="✍Event" />
     <MESSAGE value="✍About" />
@@ -443,6 +478,7 @@
     <MESSAGE value="TimeTable" />
     <MESSAGE value="校長挨拶" />
     <MESSAGE value="✍member pic" />
-    <option name="LAST_COMMIT_MESSAGE" value="✍member pic" />
+    <MESSAGE value="✍修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="✍修正" />
   </component>
 </project>

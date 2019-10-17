@@ -1,13 +1,13 @@
-// 横にスクロールしてるやつ
 import React, { Component } from 'react';
 export default class Testimonials extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="testimonials" >
+      <section id="testimonials">
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">
+              <h1><span>PickUpEvent 体育館</span></h1>
             </div>
             <div className="ten columns flex-container">
               <div className="flexslider">
@@ -17,12 +17,14 @@ export default class Testimonials extends Component {
                       return(
                         <li>
                           <blockquote>
-                            <h2 id='event' style={{
-                              background: "initial",
+                            <p> </p>
+                            <h1 style={{
+                              fontFamily: 'yasasisa',
+                              color: 'white',
                             }}>
                               {item.description}
-                            </h2>
-                            <cite style={{ fontFamily: 'yasasisa'}}>{item.place}</cite>
+                            </h1>
+                            <cite style={{fontFamily: 'メイリオ'}}>{item.name}</cite>
                           </blockquote>
                         </li>
                       )
@@ -34,6 +36,6 @@ export default class Testimonials extends Component {
           </div> {/* row ends */}
         </div>  {/* text-container ends */}
       </section>
-        );
+    );
   }
 }
