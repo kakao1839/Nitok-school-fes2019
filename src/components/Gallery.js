@@ -2,11 +2,6 @@ import React, {Component} from 'react';
 import { Zoom } from 'react-slideshow-image';
 
 const images = [
-  'images/gallery/g.jpg',
-  'images/gallery/a.jpg',
-  'images/gallery/c.jpg',
-  'images/gallery/d.jpg',
-  'images/gallery/e.jpg',
   'images/gallery/kamie.jpg',
   'images/gallery/集合写真.jpg',
 ];

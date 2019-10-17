@@ -1792,11 +1792,11 @@ h3 {
 .vertical-scroll-table table thead tr {
     font-weight: bold;
     text-align: center;
-    background-color: #818282;
+    background-color: #424343;
 }
 
 .vertical-scroll-table table tbody tr:nth-child(even) {
-    background-color: #909192;
+    background-color: #424343;
 }
 
 .vertical-scroll-table table td {

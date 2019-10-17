@@ -123,24 +123,16 @@ let resumeData = {
     ],
     "testimonials": [
         {
-            "description": "Event",
-            "place":"Pick up Event!!!!",
+            "description": "",
             "name": ""
         },
         {
-            "description": "劇",
-            "place":"体育館",
-            "name": "劇同好会"
+            "description": "ダンス",
+            "name": "ダンス部"
         },
         {
-            "description": "Hogehoge",
-            "place":"体育館",
-            "name": "hoge"
-        },
-        {
-            "description": "poyopoyo",
-            "place":"体育館",
-            "name": "potopoto"
+            "description": "ヲタ芸",
+            "name": "オタク"
         }
     ],
     "sponsor" : [
