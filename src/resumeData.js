@@ -128,17 +128,49 @@ let resumeData = {
     ],
     "testimonials": [
         {
-            "description": "",
-            "name": ""
-        },
-        {
             "description": "ダンス",
             "name": "ダンス部"
         },
         {
             "description": "ヲタ芸",
             "name": "オタク"
-        }
+        },
+        {
+            "description": "ダンス",
+            "name": "PPP"
+        },
+        {
+            "description": "劇",
+            "name": "5-br"
+        },
+        {
+            "description": "剣道",
+            "name": "剣道同好会"
+        },
+        {
+            "description": "ヲタ芸",
+            "name": "セントラルドグマ"
+        },
+        {
+            "description": "",
+            "name": "PPP"
+        },
+        {
+            "description": "劇",
+            "name": "3-ms"
+        },
+        {
+            "description": "",
+            "name": "イベント局"
+        },
+        {
+            "description": "",
+            "name": "旧高専祭"
+        },
+        {
+            "description": "",
+            "name": "イベント局"
+        },
     ],
     "sponsor" : [
         {
