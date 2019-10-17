@@ -19,7 +19,9 @@ export default class Porfolio extends Component {
   render() {
     return (
       <section id="portfolio">
-        <h1>Gallery</h1>
+        <h1 style={{
+          fontSize: '40px',
+        }}>Gallery</h1>
         <div className="slide-container">
           <Zoom {...zoomOutProperties}>
             {

@@ -136,10 +136,6 @@ let resumeData = {
             "name": "オタク"
         },
         {
-            "description": "ダンス",
-            "name": "PPP"
-        },
-        {
             "description": "劇",
             "name": "5-br"
         },
@@ -152,24 +148,24 @@ let resumeData = {
             "name": "セントラルドグマ"
         },
         {
-            "description": "",
+            "description": "K-POP IDOL",
             "name": "PPP"
+        },
+        {
+            "description": "",
+            "name": "イベント局"
         },
         {
             "description": "劇",
             "name": "3-ms"
         },
         {
-            "description": "",
-            "name": "イベント局"
-        },
-        {
-            "description": "",
+            "description": "アイドルとして踊る",
             "name": "旧高専祭"
         },
         {
-            "description": "",
-            "name": "イベント局"
+            "description": "コピユニ",
+            "name": "MKS"
         },
     ],
     "sponsor" : [

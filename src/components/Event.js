@@ -63,7 +63,7 @@ export default class Resume extends Component {
                                 <label className="tab-label" htmlFor="chck1">クラス企画</label>
                                 <div className="tab-content">
 
-                                    <div className="cards">
+                                    <div className="cards" style={{cursor: 'pointer'}}>
                                         <div className="card">
 
                                             <img className="card__image"
@@ -81,7 +81,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    世界のオガタリアン監修
                                                 </div>
                                             </div>
                                         </div>
@@ -101,7 +101,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    イキテカエレル?
                                                 </div>
                                             </div>
                                         </div>
@@ -120,7 +120,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    女装男子がいます。探してみよう！
                                                 </div>
                                             </div>
                                         </div>
@@ -140,7 +140,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    甘みと元気が売りの山川組です。
                                                 </div>
                                             </div>
                                         </div>
@@ -160,7 +160,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    カジノの雰囲気を手軽に楽しめます!!!
                                                 </div>
                                             </div>
                                         </div>
@@ -180,7 +180,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    即完売!!
                                                 </div>
                                             </div>
                                         </div>
@@ -200,7 +200,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    祭りにありだれでも楽しく遊べることを目標にします。
                                                 </div>
                                             </div>
                                         </div>
@@ -220,7 +220,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    タピオカと一緒に何か甘いものを売ろう。と思ったのでホットケーキをチョイスしてみました。
                                                 </div>
                                             </div>
                                         </div>
@@ -241,7 +241,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    一致団結!!!!!!!!!!
                                                 </div>
                                             </div>
                                         </div>
@@ -261,7 +261,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    亀と平が育て上げた情報3年が作るelectronic縁日。ここにこればウミガメの気分になれる。
                                                 </div>
                                             </div>
                                         </div>
@@ -281,7 +281,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    特技はPythonです！
                                                 </div>
                                             </div>
                                         </div>
@@ -301,7 +301,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    真心こめて作りました
                                                 </div>
                                             </div>
                                         </div>
@@ -321,7 +321,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    爆笑、間違いなし
                                                 </div>
                                             </div>
                                         </div>
@@ -341,7 +341,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    暗号解読して、脱出せよっ！
                                                 </div>
                                             </div>
                                         </div>
@@ -360,7 +360,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    4miの文豪が送る奇妙なストーリー
                                                 </div>
                                             </div>
                                         </div>
@@ -379,7 +379,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    たのしく、おいしく、かしこくなろう!!!
                                                 </div>
                                             </div>
                                         </div>
@@ -398,7 +398,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    生きるか死ぬかDO or DIE
                                                 </div>
                                             </div>
                                         </div>
@@ -417,7 +417,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    美女がいるので絶対楽しいです
                                                 </div>
                                             </div>
                                         </div>
@@ -436,7 +436,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    さあ、世界一オカシな縁日へ！
                                                 </div>
                                             </div>
                                         </div>
@@ -455,7 +455,7 @@ export default class Resume extends Component {
                                             </div>
                                             <div className="card-flap flap1">
                                                 <div className="card-description">
-                                                    とてもたのしいよ
+                                                    劇団やすとも☆再来
                                                 </div>
                                             </div>
                                         </div>

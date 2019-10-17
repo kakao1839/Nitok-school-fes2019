@@ -4,15 +4,13 @@ export default class Sponsor extends Component {
     render() {
         return (
             <section id="contact">
-                <h1>SPONSOR</h1>
-                <h1>御協賛ありがとうございました</h1>
+                <h1 style={{
+                    fontSize: '40px',
+                    color: '#8e8e8e',
+                }}>SPONSOR</h1>
+                <h1 style={{fontFamily: 'メイリオ', color: '#6a6a6a',}}>御協賛ありがとうございました</h1>
                 <div className="vertical-scroll-table">
                     <table class="sponsortable">
-                        <thead>
-                        <tr>
-                            <th>SPONSOR</th>
-                        </tr>
-                        </thead>
                         <tbody>
                         <tr>
                             <td> エヌ・テック・システムズ</td>
