@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
-window.onload = function() {
+window.onload = function () {
     var popup = document.getElementById('js-popup');
-    if(!popup) return;
+    if (!popup) return;
     popup.classList.add('is-show');
 
     var blackBg = document.getElementById('js-black-bg');
@@ -12,8 +12,8 @@ window.onload = function() {
     closePopUp(closeBtn);
 
     function closePopUp(elem) {
-        if(!elem) return;
-        elem.addEventListener('click', function() {
+        if (!elem) return;
+        elem.addEventListener('click', function () {
             popup.classList.remove('is-show');
         })
     }
@@ -27,8 +27,10 @@ export default class Header extends Component {
                     <div className="popup-inner">
                         <div className="close-btn" id="js-close-btn"><i className="fa fa-times"></i></div>
                         <a href="https://forms.gle/UHzRbrPNNVyafu9B7" target="_blank" rel="noopener">
-                            <h1 style={{fontFamily: 'logotype '}}><span style={{color: '#437DA0', fontSize: '50px'}}>アンケート</span>にご協力ください</h1></a>
-                        <a className="button" href="https://forms.gle/UHzRbrPNNVyafu9B7" target="_blank" rel="noopener" style={{fontFamily: 'logotype '}}>協力する</a>
+                            <h3 style={{fontFamily: 'logotype '}}><span
+                                style={{color: '#437DA0', fontSize: '30px'}}>アンケート</span>にご協力ください</h3></a>
+                        <a className="button" href="https://forms.gle/UHzRbrPNNVyafu9B7" target="_blank" rel="noopener"
+                           style={{fontFamily: 'logotype '}}>協力する</a>
                     </div>
                     <div className="black-background" id="js-black-bg"></div>
                 </div>
@@ -51,7 +53,8 @@ export default class Header extends Component {
                         <div className="banner-text">
                             <h1 className="responsive-headline" style={{
                                 fontFamily: 'logotype'
-                            }}>第<span c style={{color: '#ffa657', fontSize: '120px'}}>15</span>回 <span class="brspan">{resumeData.name}</span><p className="sp_br">{resumeData.name}</p></h1>
+                            }}>第<span c style={{color: '#ffa657', fontSize: '120px'}}>15</span>回 <span
+                                class="brspan">{resumeData.name}</span><p className="sp_br">{resumeData.name}</p></h1>
                             <h2 style={{
                                 color: '#fff',
                                 fontFamily: 'logotype '
@@ -68,7 +71,7 @@ export default class Header extends Component {
                                     resumeData.socialLinks && resumeData.socialLinks.map(item => {
                                             return (
                                                 <li key={item.name}>
-                                                    <h2>
+                                                    <h2 >
                                                         <a href={item.url} target="_blank">
                                                             <i className={item.className}></i></a>
                                                     </h2>
@@ -82,7 +85,7 @@ export default class Header extends Component {
                     </div>
 
                     <p className="scrolldown">
-                        <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+                        <a className="smoothscroll" href="#about" style={{cursor: 'pointer'}}><i className="icon-down-circle"></i></a>
                     </p>
 
                 </header>
