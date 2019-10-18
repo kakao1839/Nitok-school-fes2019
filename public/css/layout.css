@@ -4,8 +4,8 @@
 
 body {
     background: #0f0f0f;
-  /*  touch-action: none;
-    overflow: hidden; */
+    /*  touch-action: none;
+      overflow: hidden; */
 }
 
 /* ------------------------------------------------------------------ */
@@ -51,9 +51,8 @@ header .banner-text h1 {
     color: #fff6f4;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
-    text-shadow:
-            #a0797e 1px 1px 10px, #a0797e -1px 1px 10px,
-            #fffaf5 1px -1px 10px, #fffaf5 -1px -1px 10px;
+    text-shadow: #a0797e 1px 1px 10px, #a0797e -1px 1px 10px,
+    #fffaf5 1px -1px 10px, #fffaf5 -1px -1px 10px;
 }
 
 header .banner-text h3 {
@@ -71,9 +70,8 @@ header .banner-text h3 a {
 }
 
 header .banner-text h2 {
-    text-shadow:
-            #a0797e 1px 1px 10px, #a0797e -1px 1px 10px,
-            #fffaf5 1px -1px 10px, #fffaf5 -1px -1px 10px;
+    text-shadow: #a0797e 1px 1px 10px, #a0797e -1px 1px 10px,
+    #fffaf5 1px -1px 10px, #fffaf5 -1px -1px 10px;
 }
 
 header .banner-text hr {
@@ -103,8 +101,7 @@ header .social li a {
 
 header .social li a:hover {
     color: #11ABB0;
-  text-shadow:
-    #a05666 1px 1px 15px, #a05666 -1px 1px 15px,
+    text-shadow: #a05666 1px 1px 15px, #a05666 -1px 1px 15px,
     #fffaf5 1px -1px 10px, #fffaf5 -1px -1px 10px;
 }
 
@@ -131,8 +128,7 @@ header .scrolldown a {
 
 header .scrolldown a:hover {
     color: #11ABB0;
-  text-shadow:
-    #a0797e 1px 1px 10px, #a0797e -1px 1px 10px,
+    text-shadow: #a0797e 1px 1px 10px, #a0797e -1px 1px 10px,
     #fffaf5 1px -1px 10px, #fffaf5 -1px -1px 10px;
 }
 
@@ -1086,7 +1082,6 @@ call-to-action .button {
 }
 
 
-
 /* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */
@@ -1250,8 +1245,8 @@ input {
 }
 
 .tab-content {
-    width:100%;
-    height:60vh;
+    width: 100%;
+    height: 60vh;
     max-height: 0;
     padding: 0 1em;
     color: #2b4057;
@@ -1261,8 +1256,8 @@ input {
 }
 
 .tab-content2 {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     max-height: 0;
     padding: 0 1em;
     color: #2b4057;
@@ -1294,9 +1289,9 @@ input:checked + .tab-label::after {
 }
 
 input:checked ~ .tab-content {
-     max-height: 140vh;
-     padding: 1em;
- }
+    max-height: 140vh;
+    padding: 1em;
+}
 
 input:checked ~ .tab-content2 {
     max-height: 140vh;
@@ -1720,22 +1715,24 @@ h3 {
 .popup {
     position: fixed;
     left: 0;
-    top: 95%;
+    top: 92%;
     width: 100%;
     z-index: 2;
     opacity: 0;
     visibility: hidden;
     transition: .5s;
 }
+
 .popup.is-show {
     opacity: 1;
     visibility: visible;
 }
+
 .popup-inner {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 80%;
     max-width: 600px;
     padding: 10px;
@@ -1753,8 +1750,15 @@ h3 {
     text-align: center;
     cursor: pointer;
 }
+
+@media all and (max-width: 768px) {
+    .close-btn::before {
+        content: "　　";
+    }
+}
+
 .close-btn i {
-    font-size: 40px;
+    font-size: 30px;
     color: #333;
 }
 
@@ -1774,97 +1778,5 @@ h3 {
 /*------------------------------------*/
 /*背景                                */
 /*------------------------------------*/
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'helvetica', sans-serif;
-}
-
-.hero {
-    background-color: #EEEEEE;
-    width: 100%;
-    height: 100%;
-    max-height: calc(100% - 50px);
-}
-.hero .inner {
-    position: relative;
-    max-width: 960px;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 40px;
-    box-sizing: padding-box;
-    z-index: 4;
-}
-.hero .inner h1 {
-    color: rgba(163, 32, 109, 0.6);
-    font-weight: 300;
-    text-transform: uppercase;
-    margin-bottom: 0;
-    border-bottom: 2px rgba(163, 32, 109, 0.6) dashed;
-}
-.hero .inner p {
-    color: #999999;
-    margin-bottom: 0;
-    font-size: 13px;
-    line-height: 150%;
-    max-width: 550px;
-}
-.hero .inner p.small {
-    font-size: 12px;
-}
-.hero .inner p a {
-    display: inline-block;
-    font-size: 22px;
-    color: rgba(163, 32, 109, 0.4);
-    margin: 0 10px;
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    transition: color 0.2s linear, -webkit-transform 0.2s ease-in-out;
-    transition: transform 0.2s ease-in-out, color 0.2s linear;
-    transition: transform 0.2s ease-in-out, color 0.2s linear, -webkit-transform 0.2s ease-in-out;
-}
-.hero .inner p a:hover {
-    color: rgba(163, 32, 109, 0.8);
-    -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-    transition: color 0.4s linear, -webkit-transform 0.6s ease-in-out;
-    transition: transform 0.6s ease-in-out, color 0.4s linear;
-    transition: transform 0.6s ease-in-out, color 0.4s linear, -webkit-transform 0.6s ease-in-out;
-}
-.hero .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: transparent;
-    background: linear-gradient(to bottom, rgba(114, 81, 109, 0.2) 0%, #eeeeee 100%);
-    z-index: 3;
-}
-.hero .background {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #EEEEEE;
-    z-index: 1;
-}
-.hero .background #hero-canvas {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
 
 
