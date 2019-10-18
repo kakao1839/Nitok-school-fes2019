@@ -114,7 +114,6 @@ html {
 
 body {
    background: #fff;
-   font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
@@ -125,7 +124,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 0.6em;
+    width: 0.4em;
 }
 
 ::-webkit-scrollbar-track {
@@ -785,6 +784,15 @@ properly.
 	text-align: center !important;
 }
 
+@media screen and (min-width: 768px) {
+    .sp_br{
+        display: none;
+    }
+}
 
 
-
+@media screen and (max-width: 768px) {
+    .brspan{
+        display: none;
+    }
+}
