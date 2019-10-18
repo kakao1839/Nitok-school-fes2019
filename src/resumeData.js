@@ -73,7 +73,7 @@ let resumeData = {
         },
         {
             "position":"イベント局",
-            "name": "与那覇 星希",
+            "name": "興那覇 星希",
             "description": "高専祭えぐいてぇー",
             "imgurl": "images/member/イベント局.jpg"
         },
