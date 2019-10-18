@@ -55,12 +55,12 @@ export default class Header extends Component {
                             <h2 style={{
                                 color: '#fff',
                                 fontFamily: 'logotype '
-                            }}> {resumeData.role}
+                            }}> {resumeData.role}<p style={{fontSize: '30px',}}>9:30~16:00</p>
                             </h2>
                             <h2 style={{
                                 color: '#fff',
                                 fontFamily: 'logotype '
-                            }}> {resumeData.roleDescription}
+                            }}> {resumeData.roleDescription}<p style={{fontSize: '30px',}}>9:30~15:00</p>
                             </h2>
                             <hr/>
                             <ul className="social">
