@@ -35,16 +35,39 @@
 
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@e381x"/>
-    <meta name="twitter:title" content="第15回沖縄高専祭" />
-    <meta name="twitter:description" content="沖縄工業高等専門学校で令和元年10/26~10/27日にかけて行われる学園祭の公式Webページです。" />
-    <meta name="twitter:image" content="https://i.imgur.com/QCyorFD.jpg" />
+    <meta name="twitter:title" content="第15回沖縄高専祭"/>
+    <meta name="twitter:description" content="沖縄工業高等専門学校で令和元年10/26~10/27日にかけて行われる学園祭の公式Webページです。"/>
+    <meta name="twitter:image" content="https://i.imgur.com/QCyorFD.jpg"/>
     <!--Facebook-->
-    <meta property="fb:app_id" content="nitOK-schoolfes-2019" />
-    <meta name="google-site-verification" content="qZMLmn3tJSRtbJpqUSORxnGzJK8OeHShps2DjENKl-o" />
+    <meta property="fb:app_id" content="nitOK-schoolfes-2019"/>
+    <meta name="google-site-verification" content="qZMLmn3tJSRtbJpqUSORxnGzJK8OeHShps2DjENKl-o"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script>/**
+     * ローディングアニメーション
+     */
+
+    var $delayTime = 1000;
+
+    $(window).on('load', function () {
+        var $loadingAnim = $('#loadingAnim'),
+            $body = $('body');
+
+        setTimeout(function () {
+
+            $body.addClass('loaded');
+
+            $loadingAnim.find('.loadingAnim_line').on('transitionend', function (e) {
+                $(this).parent().remove();
+            });
+        }, $delayTime);
+    });</script>
 </head>
 <body>
+<div id="loadingAnim" class="loadingAnim">
+    <i class="loadingAnim_line"></i>
+</div>
 <noscript>
-  第15回沖縄高専祭
+    第15回沖縄高専祭
 </noscript>
 <div id="root"></div>
 

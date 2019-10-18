@@ -2,17 +2,17 @@ import React, {Component} from 'react';
 import { Zoom } from 'react-slideshow-image';
 
 const images = [
-  'images/gallery/kamie.jpg',
-  'images/gallery/集合写真.jpg',
+    'images/gallery/kamie.jpg',
+    'images/gallery/集合写真.jpg',
 ];
 
 const zoomOutProperties = {
-  duration: 4000,
-  transitionDuration: 500,
-  infinite: true,
-  indicators: true,
-  scale: 0.4,
-  arrows: true
+    duration: 4000,
+    transitionDuration: 500,
+    infinite: true,
+    indicators: true,
+    scale: 0.4,
+    arrows: true
 };
 
 export default class Porfolio extends Component {
