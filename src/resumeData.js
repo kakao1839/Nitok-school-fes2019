@@ -160,8 +160,12 @@ let resumeData = {
             "name": "旧高専祭"
         },
         {
-            "description": "コピユニ",
+            "description": "K-POP",
             "name": "MKS"
+        },
+        {
+            "description": "コピユニ",
+            "name": "イベント局"
         },
     ],
     "sponsor" : [

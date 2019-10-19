@@ -1724,7 +1724,7 @@ h3 {
     z-index: 2;
     opacity: 0;
     visibility: hidden;
-    transition: .5s;
+    transition: .6s;
 }
 
 .popup.is-show {
@@ -1782,7 +1782,12 @@ h3 {
 /*------------------------------------*/
 /*背景                                */
 /*------------------------------------*/
-
+.backanimation{
+    position: center;
+}
+.example{
+    position:center !important;
+}
 
 /*------------------------------------*/
 /*load                                */

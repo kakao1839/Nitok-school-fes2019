@@ -36,7 +36,6 @@ export default class Header extends Component {
                 </div>
                 <header id="home">
                     <nav id="nav-wrap">
-
                         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                         <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                         <ul id="nav" className="nav">
@@ -55,6 +54,7 @@ export default class Header extends Component {
                                 fontFamily: 'logotype'
                             }}>第<span c style={{color: '#ffa657', fontSize: '120px'}}>15</span>回 <span
                                 class="brspan">{resumeData.name}</span><p className="sp_br">{resumeData.name}</p></h1>
+                            <h2 class="coppy" style={{fontFamily: 'logotype', color: '#ffa657'}}>~高専らしくをあたらしく~</h2>
                             <h2 style={{
                                 color: '#fff',
                                 fontFamily: 'logotype '
@@ -72,7 +72,7 @@ export default class Header extends Component {
                                             return (
                                                 <li key={item.name}>
                                                     <h2 >
-                                                        <a href={item.url} target="_blank">
+                                                        <a href={item.url} target="_blank" rel="noopener">
                                                             <i className={item.className}></i></a>
                                                     </h2>
                                                 </li>
@@ -84,10 +84,10 @@ export default class Header extends Component {
                         </div>
                     </div>
 
+
                     <p className="scrolldown">
                         <a className="smoothscroll" href="#about" style={{cursor: 'pointer'}}><i className="icon-down-circle"></i></a>
                     </p>
-
                 </header>
             </React.Fragment>
         );

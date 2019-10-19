@@ -791,8 +791,15 @@ properly.
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     .brspan{
         display: none;
     }
+    .mapresponsiv{
+        position: center;
+    }
+    .coppy {
+        font-size: 30px;
+    }
 }
+
