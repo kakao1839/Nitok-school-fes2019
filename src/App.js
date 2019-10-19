@@ -9,6 +9,7 @@ import Sponsor from './components/Sponsor';
 import Greeting from './components/Greeting';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
 class App extends Component {
