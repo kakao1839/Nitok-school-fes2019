@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Button,Modal } from 'react-bootstrap';
 
 window.onload = function () {
     var popup = document.getElementById('js-popup');
@@ -19,10 +20,30 @@ window.onload = function () {
     }
 }
 export default class Header extends Component {
+
+    constructor(props, context){
+        super(props, context);
+        this.state = {showModal: false}
+        this.open = this.open.bind(this);
+        this.close = this.close.bind(this);
+    }
+    open() {
+        this.setState({showModal: true});
+    }
+    close() {
+        this.setState({showModal: false});
+    }
+    formSubmit(e){
+        e.preventDefault();
+        var text = e.target.value;
+        this.state = {data:"表示したい内容"}
+    }
+
     render() {
         let resumeData = this.props.resumeData;
         return (
             <React.Fragment>
+
                 <div className="popup" id="js-popup">
                     <div className="popup-inner">
                         <div className="close-btn" id="js-close-btn"><i className="fa fa-times"></i></div>
