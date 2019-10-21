@@ -12,6 +12,7 @@ export default class About extends Component {
                     <div className="row">
                         <div className="columns contact-details">
                             <h2>校長挨拶</h2>
+                            <h2 style={{fontSize: '15px'}}>-安藤 安則-</h2>
                             <p className="address">
                                 ようこそ、沖縄高専 高専祭へ！
                                 今年は「高専らしくをあたらしく～15th KOSEN Festival～」をテーマに、第15回目の高専祭を開催します。

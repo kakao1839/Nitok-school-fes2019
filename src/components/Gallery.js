@@ -18,7 +18,7 @@ const zoomOutProperties = {
 export default class Porfolio extends Component {
   render() {
     return (
-      <section id="portfolio">
+      <section id="gallery">
         <h1 style={{
           fontSize: '40px',
         }}>Gallery</h1>

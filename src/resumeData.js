@@ -17,11 +17,11 @@ let resumeData = {
             "url": "https://twitter.com/nitoc15_fes",
             "className": "fa fa-twitter"
         },
-        {
-            "name": 'an queat',
-            "url":"pamphlet.pdf",
-            "className": "fa fa-file"
-        },
+        // {
+        //     "name": 'Pamphlet',
+        //     "url":"pamphlet.pdf",
+        //     "className": "fa fa-file"
+        // },
     ],
     "aboutme": "第15回目の沖縄工業高等専門学校の学園祭です．",
     "time": "1日目: 09:30~16:00 / 2日目: 09:30~15:00",
@@ -136,6 +136,10 @@ let resumeData = {
             "name": "オタク"
         },
         {
+            "description": "コピユニ大会",
+            "name": "イベント局"
+        },
+        {
             "description": "劇",
             "name": "5-br"
         },
@@ -164,7 +168,7 @@ let resumeData = {
             "name": "MKS"
         },
         {
-            "description": "コピユニ",
+            "description": "マルバツゲーム",
             "name": "イベント局"
         },
     ],
