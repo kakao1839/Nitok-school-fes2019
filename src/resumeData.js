@@ -120,7 +120,7 @@ let resumeData = {
             "imgurl": "images/member/演出局.jpg"
         },
         {
-            "position":"物品居",
+            "position":"物品局",
             "name": "徳森 大毅",
             "description": "物品は大切にしましょう！",
             "imgurl": "images/member/物品局.jpg"

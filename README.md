@@ -14,4 +14,4 @@ npm start
 Access [localhost:3000](http://localhost:3000/)
 
 ## TODO:
-･Galleryの改変 <br>
+･タグの再設定(#gallaryなど) <br>
