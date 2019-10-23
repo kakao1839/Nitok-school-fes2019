@@ -470,6 +470,22 @@ export default class Resume extends Component {
                                     <img src="images/Event.JPG"></img>
                                 </div>
                             </div>
+
+                            <div className="tab">
+                                <input type="checkbox" id="chck3"/>
+                                <label className="tab-label" htmlFor="chck3">有志バンド day.1: タイムテーブル</label>
+                                <div className="tab-content3">
+                                    <img src="images/Band.JPG"></img>
+                                </div>
+                            </div>
+
+                            <div className="tab">
+                                <input type="checkbox" id="chck4"/>
+                                <label className="tab-label" htmlFor="chck4">有志バンド day.2: タイムテーブル</label>
+                                <div className="tab-content4">
+                                    <img src="images/Band.JPG"></img>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
