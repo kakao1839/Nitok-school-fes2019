@@ -14,6 +14,3 @@ npm install
 npm start
 ```
 Access [localhost:3000](http://localhost:3000/)
-
-## TODO:
-･タグの再設定(#gallaryなど) <br>
