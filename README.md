@@ -3,6 +3,8 @@
 [![Framework](https://img.shields.io/badge/-React-70B8D1.svg?logo=react&style=popout)](https://reactjs.org)
 [![Twitter Follow](https://img.shields.io/twitter/follow/e381x?style=social)](https://twitter.com/e381x)
 # This is Nit-ok School Festival WebSite
+deploying to firebase <br>
+https://nitok-fes2019-dcc7a.firebaseapp.com/
 
 ## Use
 ```bash
