@@ -13,4 +13,4 @@ npm install
 ```bash
 npm start
 ```
-Access [localhost:3000](http://localhost:3000/)
+Access-> [localhost:3000](http://localhost:3000/)
